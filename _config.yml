@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Zhixin Wang
-locale: "en-US"
-serif: true
+# locale: "en-US"
+# serif: true
 url: "https://zhixinwang97.github.io"
 baseurl: 
 email:
@@ -60,6 +60,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+custom_css: "assets/css/custom.css"
 
 author:
   name     : "Zhixin Wang"
