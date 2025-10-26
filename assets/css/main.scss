@@ -13,12 +13,19 @@
   // 针对 <p> 标签 (例如 "with Yu Zhang, Zhengyu Zhang")
   // 默认是 1rem (约 16px)，这里改成 0.9rem (约 14.4px)
   p {
-    font-size: 0.6rem; // 你可以根据需要调整这个值，比如 0.85rem
+    font-size: 0.75rem; // 你可以根据需要调整这个值，比如 0.85rem
   }
 
+  h2 {
+    font-size: 1.5rem; 
+  }
+  
+  h3 {
+    font-size: 1.25rem; 
+  }
+  
   // 针对 <h4> 标签 (即你的论文标题)
-  // 默认是 1.25rem (约 20px)，这里改成 1.15rem (约 18.4px)
   h4 {
-    font-size: 1.0rem; // 你也可以调整这个值
+    font-size: 1.1rem; // 你也可以调整这个值
   }
 }
