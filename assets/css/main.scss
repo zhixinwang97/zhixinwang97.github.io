@@ -47,4 +47,9 @@
 
 }
 
-
+// 1. 增加顶部条目和名字之间的间隔（红色方框范围）
+.author__avatar,
+.author__content {
+  margin-top: 2rem !important; // 调整这个值来增加顶部间距
+  padding-top: 1rem !important;
+}
