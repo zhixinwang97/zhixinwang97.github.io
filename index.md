@@ -11,4 +11,4 @@ I am a PhD Candidate in Economics at the Shanghai University of Finance and Econ
 
 My research interests lie in Theoretical Econometrics and Causal Inference. <br>
 
-<br> You can find my Curriculum Vitae here: **[My CV](/cv.pdf)**
+You can find my Curriculum Vitae here: **[CV](/cv.pdf)**
