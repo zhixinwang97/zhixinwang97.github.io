@@ -12,10 +12,6 @@
   p {
     font-size: 0.8rem; 
   }
-
-  h2 {
-    font-size: 1.25rem; 
-  }
   
   // 针对 <h4> 标签 (论文标题)
   h4 {
@@ -23,9 +19,11 @@
   }
 }
 
-// 3. 修改 "Research" (页面大标题) 的字号
-// 默认值大约是 2.5rem
+.page__content h2 {
+  font-size: 1.25rem; // <-- 修改这个值
+}
+
 .page__title {
-  font-size: 2rem; // <-- 修改这个值
+  font-size: 1.5rem; // <-- 修改这个值
 }
 
