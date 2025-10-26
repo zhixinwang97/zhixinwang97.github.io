@@ -14,11 +14,11 @@ $global-font-family: $serif-font-family;
 $header-font-family: $serif-font-family;
 
 // 更改基础字号 (默认是 16px)
-$base-font-size: 17px; 
+$base-font-size: 15px; 
 
 // 更改侧边栏 Bio 的小字号 (默认是 0.75em)
 // 您的 Bio 字号将是: 17px * 0.8em = 13.6px
-$type-size-6: 0.8em;
+$type-size-6: 0.6em;
 
 
 /* * ===================================================================
@@ -34,14 +34,16 @@ $type-size-6: 0.8em;
 
 
 /* * ===================================================================
- * 3. 您的自定义布局 (左对齐)
+ * 3. 您的自定义布局 (左对齐) - [强力修正版]
  * ===================================================================
  */
 
-// 这是“左对齐”的正确代码
-.masthead__inner-wrap {
+// 我们使用更强的选择器 (在前面添加 .masthead) 来确保它覆盖掉默认值
+.masthead .masthead__inner-wrap {
   justify-content: flex-start !important;
 }
-.greedy-nav {
-  margin-left: 2em !important;
+
+// 同样，使用更强的选择器来添加间距
+.masthead .greedy-nav {
+  margin-left: 2em !important; // 在 "Zhixin Wang" 和 "Research" 之间添加 2em 间距
 }
