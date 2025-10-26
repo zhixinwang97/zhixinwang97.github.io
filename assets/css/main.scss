@@ -7,18 +7,13 @@
  * ===================================================================
  */
 
-// 更改字体为 "Serif" (衬线/学术字体, 类似 Times New Roman)
-$serif-font-family: "Georgia", Times, serif;
-$global-font-family: $serif-font-family;
-$header-font-family: $serif-font-family;
-
 // 更改基础字号 (默认是 16px)
 $base-font-size: 12px; 
 
-// $type-size-1: 2.441em;  // <h1> (顶级标题)
-$type-size-2: 1.6em;    // <h2> ("Research" )
-$type-size-3: 1.3em;    // <h3> ("Publications", "Working Papers" )
-// $type-size-4: 1.25em;   // <h4>
+$type-size-1: 2em;  // <h1> (顶级标题)
+$type-size-2: 1em;    // <h2> ("Research" )
+$type-size-3: 1em;    // <h3> ("Publications", "Working Papers" )
+$type-size-4: 1em;   // <h4>
 $type-size-5: 1em;      //
 $type-size-6: 0.6em;
 
