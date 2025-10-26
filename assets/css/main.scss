@@ -41,32 +41,13 @@
 }
 
 // --- 7. 【最终修正】移动 "Research", "Teaching" 导航栏到左侧 ---
-
-.masthead__inner-wrap {
-  // 1. 把顶部栏从“两端对齐”改成“从左开始”
-  justify-content: flex-start !important;
+.greedy-nav {
+  // 1. 覆盖主题的 "float: right;"，改成 "float: left;"
+  float: left;
   
-  // 2. 强制隐藏汉堡按钮
-  .greedy-nav__toggle {
-    display: none !important;
-  }
+  // 2. 距离左边的 "Zhixin Wang" 增加一些间距
+  margin-left: 2.5em; // <-- 你可以调整这个间距
   
-  // 3. 强制隐藏搜索按钮
-  .search__toggle {
-    display: none !important;
-  }
+  // 3. 确保垂直方向对齐
+  margin-top: 0.5em; 
 }
-
-// 4. 确保你的名字和链接列表垂直对齐
-.site-title,
-.visible-links {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-// 5. 强制显示链接列表，并给它一个左边距
-.visible-links {
-  display: inline-block !important; // 强制显示
-  margin-left: 2em; // <-- 你可以调整这个间距
-}
-
