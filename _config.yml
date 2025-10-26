@@ -61,8 +61,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-custom_css: "assets/css/custom.css"
-
 author:
   name     : "Zhixin Wang"
   avatar   : "/assets/images/bio-photo.jpg"
