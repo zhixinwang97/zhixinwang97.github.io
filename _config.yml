@@ -62,7 +62,7 @@ plugins:
 author:
   name     : "Zhixin Wang"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "PhD Student in Economics <br> at Shanghai University of Finance and Economics"
+  bio      : "PhD Candidate in Economics, <br> Shanghai University of Finance and Economics"
   location : "Shanghai, China"
   links:
     - label: "Email"
