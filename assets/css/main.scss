@@ -2,15 +2,16 @@
 # This empty front matter is required for Jekyll to process this file
 ---
 
-// 1. 导入您在 _sass 文件夹中定义的变量 (比如 18px 和 0.8em)
-@import "minimal-mistakes/variables";
+// 1. 导入您在 _config.yml 中选择的“皮肤” (例如 contrast)
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 
-// 2. 导入主题的其余默认样式
-@import "{{ site.theme }}";
+// 2. 导入主题的主样式表
+// (这个文件会自动查找并使用您在 _sass/_variables.scss 中设置的 18px 字号)
+@import "minimal-mistakes";
 
 
 /* * 3. (可选) 您之前想要的“左对齐”代码。
- * 如果您不想要了，请删除掉第 13-18 行。
+ * 如果您不想要了，请删除掉第 15-20 行。
  */
 .masthead__menu .greedy-nav {
   justify-content: flex-start;
