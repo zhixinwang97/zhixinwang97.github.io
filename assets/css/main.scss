@@ -5,27 +5,28 @@
 // 1. 导入主题的默认样式
 @import "minimal-mistakes"; 
 
-// 2. 在下面添加这段代码，它只会缩小你指定的红色内容区域的字号
-//    (不会影响左边的侧边栏)
-
+// 2. 缩小论文内容（上次的修改）
 .page__content {
 
-  // 针对 <p> 标签 (例如 "with Yu Zhang, Zhengyu Zhang")
-  // 默认是 1rem (约 16px)，这里改成 0.9rem (约 14.4px)
+  // 针对 <p> 标签 (作者列表)
   p {
-    font-size: 0.75rem; // 你可以根据需要调整这个值，比如 0.85rem
+    font-size: 0.8rem; 
   }
 
-  h2 {
-    font-size: 1.5rem; 
-  }
-  
-  h3 {
-    font-size: 1.25rem; 
-  }
-  
-  // 针对 <h4> 标签 (即你的论文标题)
+  // 针对 <h4> 标签 (论文标题)
   h4 {
-    font-size: 1.1rem; // 你也可以调整这个值
+    font-size: 1.1rem; 
   }
+}
+
+// 3. 修改 "Research" (页面大标题) 的字号
+// 默认值大约是 2.5rem
+.page__title {
+  font-size: 2.25rem; // <-- 修改这个值
+}
+
+// 4. 修改 "Publications" 和 "Working Papers" (Section 标题) 的字号
+// 默认值大约是 1.75rem
+.page__content h2 {
+  font-size: 1.5rem; // <-- 修改这个值
 }
