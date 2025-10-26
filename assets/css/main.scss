@@ -8,13 +8,12 @@
  */
 
 // 更改字体为 "Serif" (衬线/学术字体, 类似 Times New Roman)
-// 这会覆盖掉 _config.yml 里的 # serif: true
 // $serif-font-family: "Georgia", Times, serif;
 // $global-font-family: $serif-font-family;
 // $header-font-family: $serif-font-family;
 
 // 更改基础字号 (默认是 16px)
-$base-font-size: 13px; 
+$base-font-size: 12px; 
 
 // 更改侧边栏 Bio 的小字号 (默认是 0.75em)
 $type-size-6: 0.6em;
@@ -28,6 +27,6 @@ $type-size-6: 0.6em;
 // 导入您在 _config.yml 中选择的“皮肤” (contrast)
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 
-// 导入主题的主样式表
-@import "minimal-mistakes";
+// 导入主题的主样式表 [这是我之前写错的关键一行]
+@import "{{ site.theme }}";
 
