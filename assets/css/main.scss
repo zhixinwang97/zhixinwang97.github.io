@@ -18,12 +18,23 @@ $type-size-6: 0.6em;
  * 2. 导入主题 (必须在变量之后！)
  * ===================================================================
  */
+// --- 布局变量 (为了让 "增加间距" 代码生效) ---
+// (我们必须在这里重新定义 $large，因为我们覆盖了它)
+$large: 1280px !default; 
+
+
+/* * ===================================================================
+ * 2. 导入主题 (这是唯一正确的导入命令)
+ * ===================================================================
+ */
+
+@import "minimal-mistakes";
 
 // 导入您在 _config.yml 中选择的“皮肤” (contrast)
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+//@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 
 // 导入主题的主样式表 [这是我之前写错的关键一行]
-@import "{{ site.theme }}";
+//@import "{{ site.theme }}";
 
 // 这段代码仅在 "large" (宽屏) 视图下生效
 @media (min-width: $large) {
