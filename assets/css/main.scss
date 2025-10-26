@@ -27,13 +27,9 @@
   display: none;
 }
 
-// 5. 【再次修正】增加左侧栏和右侧内容区的间距
-// 这段代码只在宽屏幕（大于 1024px）上生效
-@include breakpoint($large) {
+@media screen and (min-width: 1024px) {
   .layout--single {
     // 默认的列间距 (column-gap) 是 2em
-    // 我们只修改第二个值（列间距），第一个值 0 是行间距
-    grid-gap: 0em 20em; // <-- 【修正点】你可以调整这个值 (比如 3em, 5em, 60px)
+    grid-column-gap: 20em; // <-- 【修正点】请从这里开始调整 (比如 3em, 5em, 60px)
   }
-
 }
