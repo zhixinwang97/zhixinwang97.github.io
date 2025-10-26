@@ -47,17 +47,15 @@
 
 }
 
-/* 1. 调整名字与导航栏之间的间距 */
-.masthead__menu {
-  margin-left: 2rem; /* 控制顶部间距 */
+
+/* 1. 顶部名字与导航栏的横向间距 */
+.greedy-nav .site-title {
+  margin-right: 2.5rem; /* 可调整为 3rem 或 4rem */
 }
 
-/* 2. 调整左侧栏与正文之间的距离 */
-.layout--single .page {
-  display: flex;
-  gap: 4rem; /* 默认约 2rem，可改为更宽 */
-}
-
+/* 2. 左侧栏与右侧正文的间距 */
 .sidebar {
-  margin-right: 4rem !important;
+  margin-right: 4rem; /* 可调为 3rem~5rem */
 }
+
+
