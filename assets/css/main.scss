@@ -33,6 +33,6 @@
 @include breakpoint($large) {
   .page__main {
     // 默认没有左内边距，我们来增加一点
-    padding-left: 5em; // <-- 你可以调整这个值，比如 1.5em, 3em, 或 40px
+    padding-left: 50em; // <-- 你可以调整这个值，比如 1.5em, 3em, 或 40px
   }
 }
