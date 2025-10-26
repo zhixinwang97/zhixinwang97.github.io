@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Zhixin Wang"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "PhD in Economics <br> at Shanghai University of Finance and Economics"
+  bio    : "PhD in Economics at Shanghai University of Finance and Economics"
   location : "Shanghai, China" #
   links:
     - label: "Email"
@@ -108,3 +108,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+academicons: # Enable/Disable Academicons
+  show: true
