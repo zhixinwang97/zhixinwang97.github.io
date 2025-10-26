@@ -66,16 +66,16 @@ author:
   location : "Shanghai, China"
   links:
     - label: "Email"
-      icon: "fa fa-envelope-o" #"fas fa-fw fa-envelope-square"
+      icon: "ai ai-email"  #"fas fa-fw fa-envelope-square"
       url: "mailto:2021210282@stu.sufe.edu.cn"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square" #"fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/..."
     - label: "arXiv"
-      icon: "fas fa-fw fa-archive"
+      icon: "ai ai-arxiv"
       url: "https://arxiv.org/a/wang_z_31"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "ai ai-github"
       url: "https://github.com/zhixinwang97"
 
 
