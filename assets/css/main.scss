@@ -3,3 +3,17 @@
 ---
 
 @import "minimal-mistakes";
+
+/* * 您的自定义样式
+ * -------------------------------------------------- 
+ */
+
+/* 覆盖: 将顶部导航栏从 "space-between" (两端对齐) 改为 "flex-start" (左对齐) */
+.masthead__menu .greedy-nav {
+  justify-content: flex-start;
+}
+
+/* 覆盖: 在您的名字 "Zhixin Wang" 和 "Research" 链接之间添加一些间距 */
+.masthead__menu .visible-links {
+  padding-left: 3em; 
+}
