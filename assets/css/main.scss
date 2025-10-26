@@ -8,13 +8,13 @@
  */
 
 // 更改基础字号 (默认是 16px)
-$base-font-size: 12px; 
+$base-font-size: 11px; 
 
-$type-size-1: 2em;  // <h1> (顶级标题)
-$type-size-2: 1em;    // <h2> ("Research" )
-$type-size-3: 1em;    // <h3> ("Publications", "Working Papers" )
-$type-size-4: 1em;   // <h4>
-$type-size-5: 1em;      //
+$type-size-1: 6px;  // <h1> (顶级标题)
+$type-size-2: 6px;    // <h2> ("Research" )
+$type-size-3: 6px;    // <h3> ("Publications", "Working Papers" )
+$type-size-4: 6px;   // <h4>
+$type-size-5: 6px;      //
 $type-size-6: 0.6em;
 
 
@@ -29,3 +29,13 @@ $type-size-6: 0.6em;
 // 导入主题的主样式表 [这是我之前写错的关键一行]
 @import "{{ site.theme }}";
 
+// 这段代码仅在 "large" (宽屏) 视图下生效
+@media (min-width: $large) {
+  .page__inner-wrap {
+
+    // 默认的水平间距(horizontal gap)是 2em
+    // 我们把它改成 4em (2em 的两倍)，您可以改成 3em, 5em 等您喜欢的值
+
+    grid-gap: 0 4em !important; 
+  }
+}
