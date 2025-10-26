@@ -20,10 +20,19 @@
 }
 
 .page__content h2 {
-  font-size: 1.0rem; // <-- 修改这个值
+  font-size: 1.0rem; 
 }
 
 
 .layout--single .page__title {
   display: none;
+}
+
+// 5. 【新添加】增加左侧栏和右侧内容区的间距
+// 这段代码只在宽屏幕（大于 1024px）上生效，不会影响手机布局
+@include breakpoint($large) {
+  .page__main {
+    // 默认没有左内边距，我们来增加一点
+    padding-left: 5em; // <-- 你可以调整这个值，比如 1.5em, 3em, 或 40px
+  }
 }
