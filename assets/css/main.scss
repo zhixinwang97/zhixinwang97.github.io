@@ -55,7 +55,7 @@
 
 .page {
   @include breakpoint($large) {
-    float: right;
+    float: left;
     width: calc(100% - 300px); // 相应减少右侧内容区域宽度
     padding-right: 0;
   }
@@ -65,8 +65,3 @@
   }
 }
 
-// 确保导航栏仍然在左侧
-.greedy-nav {
-  float: left;
-  width: 100%; // 确保导航栏占满左侧栏宽度
-}
