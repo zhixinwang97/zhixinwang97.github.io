@@ -7,8 +7,8 @@ author_profile: true
 permalink: /
 ---
 
-I am a PhD Candidate in Economics at the Shanghai University of Finance and Economics. My research interests lie in Theoretical Econometrics and Statistics. 
+I am a PhD Candidate in Economics at the Shanghai University of Finance and Economics. <br>
 
-This is a sample introduction text to test the rendering. My research focuses on...
+My research interests lie in Theoretical Econometrics and Causal Inference. <br>
 
 <br> You can find my Curriculum Vitae here: **[My CV](/cv.pdf)**
