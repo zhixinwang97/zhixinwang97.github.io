@@ -5,6 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 <div class="research-section">
+  
 ## Publications
 
 **"Structural Representations and Identification of Marginal Policy Effects"** <br>
