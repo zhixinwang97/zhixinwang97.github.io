@@ -9,8 +9,6 @@
 
 // 更改基础字号 (默认是 16px)
 $base-font-size: 11px; 
-$h1-font-size: 0.1em;   // Research 标题
-$h2-font-size: 0.1em;   // Publications, Working Papers 标题
 $type-size-6: 0.6em;
 
 
@@ -21,9 +19,10 @@ $type-size-6: 0.6em;
 
 @import "minimal-mistakes";
 
-// 导入您在 _config.yml 中选择的“皮肤” (contrast)
-//@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-
-// 导入主题的主样式表 [这是我之前写错的关键一行]
-//@import "{{ site.theme }}";
+.research-section {
+    font-size: 11px; // 自定义红色区域的字号
+    h1 { font-size: 0.8em; }
+    h2 { font-size: 0.5em; }
+    p { font-size: 0.8em; }
+}
 
