@@ -40,31 +40,33 @@
   font-size: 0.8rem; // <-- 调小链接列表 (默认 0.875rem)
 }
 
-// --- 7. 【新添加】移动 "Research", "Teaching" 导航栏到左侧 ---
+// --- 7. 【最终修正】移动 "Research", "Teaching" 导航栏到左侧 ---
 
-.masthead {
-  .greedy-nav {
-    // 移除默认的右浮动
-    float: none;
-    // 让它和标题在同一行显示
-    display: inline-block;
-    // 确保垂直居中对齐
-    vertical-align: middle;
-    // 距离左边的 "Zhixin Wang" 增加一些间距
-    margin-left: 2.5em; // <-- 你可以调整这个间距
+.masthead__inner-wrap {
+  // 1. 把顶部栏从“两端对齐”改成“从左开始”
+  justify-content: flex-start !important;
+  
+  // 2. 强制隐藏汉堡按钮
+  .greedy-nav__toggle {
+    display: none !important;
   }
-
-  // 隐藏掉原来在右侧的搜索图标和移动端菜单按钮
-  .search__toggle,
-  .greedy-nav .nav__toggle {
-    display: none !important; // 强制隐藏
+  
+  // 3. 强制隐藏搜索按钮
+  .search__toggle {
+    display: none !important;
   }
 }
 
-// 确保 site-title (你的名字) 也是 inline-block 并且垂直对齐
-// 这样导航链接才能跟它排在同一行
-.site-title {
+// 4. 确保你的名字和链接列表垂直对齐
+.site-title,
+.visible-links {
   display: inline-block;
   vertical-align: middle;
+}
+
+// 5. 强制显示链接列表，并给它一个左边距
+.visible-links {
+  display: inline-block !important; // 强制显示
+  margin-left: 2em; // <-- 你可以调整这个间距
 }
 
