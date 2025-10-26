@@ -18,7 +18,7 @@ $type-size-6: 0.6em;
  * 2. 导入主题 (必须在变量之后！)
  * ===================================================================
 
-// @import "minimal-mistakes";
+@import "minimal-mistakes";
 
 // 导入您在 _config.yml 中选择的“皮肤” (contrast)
 //@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
