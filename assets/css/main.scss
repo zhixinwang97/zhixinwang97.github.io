@@ -44,10 +44,20 @@
 .greedy-nav {
   // 1. 覆盖主题的 "float: right;"，改成 "float: left;"
   float: left;
-  
-  // 2. 距离左边的 "Zhixin Wang" 增加一些间距
-  // margin-left: 0em; // <-- 你可以调整这个间距
-  
-  // 3. 确保垂直方向对齐
-  margin-top: 0.5em; 
+
+}
+
+/* 1. 调整名字与导航栏之间的间距 */
+.masthead__menu {
+  margin-left: 2rem; /* 控制顶部间距 */
+}
+
+/* 2. 调整左侧栏与正文之间的距离 */
+.layout--single .page {
+  display: flex;
+  gap: 4rem; /* 默认约 2rem，可改为更宽 */
+}
+
+.sidebar {
+  margin-right: 4rem !important;
 }
