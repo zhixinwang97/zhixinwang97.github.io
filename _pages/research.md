@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-
+<div class="research-section">
 ## Publications
 
 **"Structural Representations and Identification of Marginal Policy Effects"** <br>
@@ -20,3 +20,4 @@ with Zhengyu Zhang <br>
 [Manuscript](/teSRKD.pdf) | [Supplementary Appendix](/teSRKD_sp.pdf)
 
 
+</div>
