@@ -9,12 +9,8 @@
 
 // 更改基础字号 (默认是 16px)
 $base-font-size: 11px; 
-// "页面大标题" (<h1>, 比如 "Research" 标题)
-$h1-font-size: 1.5em;  // 15px * 1.8 = 27px (变小)
-
-// "二级标题" (<h2>, 比如 "Publications", "Working Papers")
-// 默认是 1.563em (16*1.563 = ~25px)
-$h2-font-size: 1.0em;  // 15px * 1.4 = 21px (变小)
+$h1-font-size: 0.1em;   // Research 标题
+$h2-font-size: 0.1em;   // Publications, Working Papers 标题
 $type-size-6: 0.6em;
 
 
