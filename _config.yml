@@ -62,12 +62,18 @@ plugins:
 author:
   name   : "Zhixin Wang"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Ph.D. in Economics at Shanghai University of Finance and Economics"
+  bio    : "PhD in Economics <br> at Shanghai University of Finance and Economics"
   location : "Shanghai, China" #
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square" 
       url: "mailto:2021210282@stu.sufe.edu.cn" 
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap" 
+      url: "https://scholar.google.com/..." 
+    - label: "arXiv"
+      icon: "ai ai-arxiv-square" 
+      url: "https://arxiv.org/a/wang_z_31.html" 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://zhixinwang97.github.io/"
