@@ -19,13 +19,10 @@
   }
 }
 
-.page__content h2 {
+.page__content h3 {
   font-size: 1.1rem; // <-- 修改这个值
 }
 
-.page__title {
-  font-size: 1.5rem; // <-- 修改这个值
-}
 
 .layout--single .page__title {
   display: none;
