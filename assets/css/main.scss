@@ -48,8 +48,31 @@
 }
 
 // 1. 增加顶部条目和名字之间的间隔（红色方框范围）
-.author__avatar,
-.author__content {
-  margin-top: 2rem !important; // 调整这个值来增加顶部间距
-  padding-top: 1rem !important;
+//.author__avatar,
+//.author__content {
+  margin-top: 1rem !important; // 调整这个值来增加顶部间距
+  padding-top: 0.5rem !important;
+//}
+
+// 调整左右栏宽度比例
+.sidebar {
+  width: 280px; // 增加左侧栏宽度
+}
+
+.page {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - 300px); // 相应减少右侧内容区域宽度
+    padding-right: 0;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - 350px); // 在大屏幕上进一步调整
+  }
+}
+
+// 确保导航栏仍然在左侧
+.greedy-nav {
+  float: left;
+  width: 100%; // 确保导航栏占满左侧栏宽度
 }
