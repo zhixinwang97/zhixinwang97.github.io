@@ -10,17 +10,17 @@
 
   // 针对 <p> 标签 (作者列表)
   p {
-    font-size: 0.8rem; 
+    font-size: 0.75rem; 
   }
   
   // 针对 <h4> 标签 (论文标题)
   h4 {
-    font-size: 1.1rem; 
+    font-size: 1.0rem; 
   }
 }
 
-.page__content h3 {
-  font-size: 1.1rem; // <-- 修改这个值
+.page__content h2 {
+  font-size: 1.0rem; // <-- 修改这个值
 }
 
 
