@@ -5,6 +5,9 @@
 // 1. 导入主题的默认样式
 @import "minimal-mistakes"; 
 
+// 引入 Academicons 图标库
+@import url("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css");
+
 // 2. 缩小论文内容（上次的修改）
 .page__content {
 
