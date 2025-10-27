@@ -10,20 +10,20 @@
 
 // 调整作者链接的对齐方式
 .author__urls {
-  // 确保链接项左对齐
-  li {
-    display: flex;
-    align-items: center; // 垂直居中对齐
-    justify-content: flex-start; // 左对齐
-    // margin-bottom: 0.5rem;
-  }
+  // // 确保链接项左对齐
+  // li {
+  //   display: flex;
+  //   align-items: center; // 垂直居中对齐
+  //   justify-content: flex-start; // 左对齐
+  //   // margin-bottom: 0.5rem;
+  // }
   
-  // 图标和文字容器
-  a {
-    display: flex;
-    align-items: center;
-    width: 100%; // 确保占满整个宽度
-  }
+  // // 图标和文字容器
+  // a {
+  //   display: flex;
+  //   align-items: center;
+  //   width: 100%; // 确保占满整个宽度
+  // }
   
   // 图标样式
   .ai, .fas, .fab {
@@ -34,11 +34,11 @@
     flex-shrink: 0; // 防止图标被压缩
   }
   
-  // 链接文字样式
-  span {
-    text-align: left;
-    flex-grow: 1; // 文字区域占据剩余空间
-  }
+  // // 链接文字样式
+  // span {
+  //   text-align: left;
+  //   flex-grow: 1; // 文字区域占据剩余空间
+  // }
 }
 
 // 2. 缩小论文内容（上次的修改）
