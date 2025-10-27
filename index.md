@@ -5,6 +5,7 @@
 layout: single
 author_profile: true
 permalink: /
+classes: custom-home-text
 ---
 
 I am a PhD Candidate in Economics at the Shanghai University of Finance and Economics. <br>
