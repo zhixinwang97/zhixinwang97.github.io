@@ -60,42 +60,20 @@
 
 
 // 调整左右栏宽度比例
-// .sidebar {
-//   width: 350px; // 增加左侧栏宽度
-// }
-
-// .page {
-//   @include breakpoint($large) {
-//     float: left;
-//     width: calc(100% - 300px); // 相应减少右侧内容区域宽度
-//     padding-right: 0;
-//   }
-
-//   @include breakpoint($x-large) {
-//     width: calc(100% - 350px); // 在大屏幕上进一步调整
-//   }
-// }
-
-// 直接修改网格布局的列宽
-.layout--single {
-  .page {
-    @include breakpoint($large) {
-      display: grid;
-      grid-template-columns: 300px 1fr; // 左侧300px，右侧自适应
-      grid-gap: 40px;
-    }
-    
-    @include breakpoint($x-large) {
-      grid-template-columns: 350px 1fr; // 在大屏幕上左侧更宽
-    }
-  }
+.sidebar {
+  width: 350px; // 增加左侧栏宽度
 }
 
-// 确保左侧栏样式
-.sidebar {
+.page {
   @include breakpoint($large) {
     float: left;
-    margin-left: 0;
-    width: 100%;
+    width: calc(100% - 350px); // 相应减少右侧内容区域宽度
+    padding-right: 0;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - 350px); // 在大屏幕上进一步调整
   }
 }
+
+
