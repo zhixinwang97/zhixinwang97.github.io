@@ -16,4 +16,4 @@ You can find my Curriculum Vitae here: **[CV](/cv.pdf)**
 
 ### Contact
 
-**Email:** [`2021210282@stu.sufe.edu.cn`]
+**Email:** `2021210282@stu.sufe.edu.cn`
