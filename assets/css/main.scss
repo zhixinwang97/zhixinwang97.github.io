@@ -21,14 +21,8 @@
   }
 }
 
-// 调整网站标题 (Zhixin Wang)
-.greedy-nav .site-title {
-  font-size: 1.2rem !important; // 调整这个值
-}
-
-// 调整导航链接 (Research, Teaching)
-.greedy-nav .visible-links a {
-  font-size: 0.9rem !important; // 调整这个值
+.greedy-nav {
+  font-size: 0.8rem;
 }
 
 // 2. 缩小论文内容
