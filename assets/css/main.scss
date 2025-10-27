@@ -21,23 +21,52 @@
   }
 }
 
-// 2. 缩小论文内容（上次的修改）
+// 精确控制不同部分的字体
 .page__content {
-
-  // 针对 <p> 标签 (作者列表)
+  // 正文段落
   p {
-    font-size: 0.75rem; 
+    font-size: 1.0rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
   }
   
-  // 针对 <h4> 标签 (论文标题)
-  h4 {
-    font-size: 1.0rem; 
+  // 列表项
+  li {
+    font-size: 0.95rem;
+  }
+  
+  // 链接
+  a {
+    font-size: inherit; // 继承父元素字体大小
+  }
+  
+  // 如果有特定的内容区域
+  .research-description,
+  .teaching-description {
+    p {
+      font-size: 1.0rem;
+      line-height: 1.6;
+    }
   }
 }
 
-.page__content h2 {
-  font-size: 1.0rem; 
-}
+// // 2. 缩小论文内容
+// .page__content {
+
+//   // 针对 <p> 标签 (作者列表)
+//   p {
+//     font-size: 0.75rem; 
+//   }
+  
+//   // 针对 <h4> 标签 (论文标题)
+//   h4 {
+//     font-size: 1.0rem; 
+//   }
+// }
+
+// .page__content h2 {
+//   font-size: 1.0rem; 
+// }
 
 .layout--single .page__title {
   display: none;
