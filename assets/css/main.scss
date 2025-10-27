@@ -21,6 +21,15 @@
   }
 }
 
+// 针对你的名字 (Zhixin Wang)
+.site-title {
+  font-size: 1.15em; // 默认可能接近 1.3em。你可以调整到 1.1em, 1.0em 等
+}
+
+// 针对导航链接 (Research, Teaching)
+.nav__items a {
+  font-size: 0.9em; // 默认可能接近 1em。你可以调整到 0.85em, 0.95em 等
+}
 
 // 2. 缩小论文内容
 .page__content {
