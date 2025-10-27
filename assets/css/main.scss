@@ -22,9 +22,11 @@
 }
 
 .site-title {
-  font-size: 0.8rem; // 调整你的名字字号
+  font-size: 0.9rem; // 调整你的名字字号
 }
-
+.visible-links a {
+  font-size: 0.9rem; // 导航链接
+}
 
 // 2. 缩小论文内容
 .page__content {
@@ -62,7 +64,7 @@
 
 // 6. 【新添加】缩小左侧栏（作者信息）的字号
 .author__name {
-  font-size: 1.0rem; // <-- 调小你的名字 (默认 1.25rem)
+  font-size: 0.9rem; // <-- 调小你的名字 (默认 1.25rem)
 }
 
 .author__bio {
