@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zhixin Wang
+title: Zhixin Wang (王智信)
 url: "https://zhixinwang97.github.io"
 baseurl: 
 email:
