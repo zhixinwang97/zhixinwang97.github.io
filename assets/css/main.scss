@@ -21,19 +21,14 @@
   }
 }
 
-// 针对你的名字 (Zhixin Wang)
-.site-title {
-  font-size: 1em; // 调整你的名字字号
+// 调整网站标题 (Zhixin Wang)
+.greedy-nav .site-title {
+  font-size: 1.2rem !important; // 调整这个值
 }
 
-// 针对导航链接 (Research, Teaching) - 使用更准确的 .greedy-nav a
-.greedy-nav a {
-  font-size: 0.6em; // 调整导航链接字号
-}
-
-// 强制隐藏汉堡菜单，避免链接被吞
-.greedy-nav__toggle {
-  display: none !important;
+// 调整导航链接 (Research, Teaching)
+.greedy-nav .visible-links a {
+  font-size: 0.9rem !important; // 调整这个值
 }
 
 // 2. 缩小论文内容
