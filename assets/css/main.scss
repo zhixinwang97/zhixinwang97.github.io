@@ -40,18 +40,14 @@
   }
 }
 
-// .page__content h2 {
-//   font-size: 1.0rem; 
-// }
 
 // .custom-home-text 类只会出现在主页的正文容器上
 .custom-home-text {
   .page__content {
     // 针对主页正文的 <p> 标签
     p {
-      // 默认可能是 1rem (16px)。这里放大到 1.1rem
-      font-size: 1.1rem; // <-- 调整这个值来放大主页字号 (例如 1.2rem, 18px)
-      line-height: 1.8; // 增加行高，让文字看起来更舒服
+      font-size: 1.0rem; // 
+      line-height: 1.5; // 
     }
   }
 }
