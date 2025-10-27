@@ -23,12 +23,17 @@
 
 // 针对你的名字 (Zhixin Wang)
 .site-title {
-  font-size: 1.15em; // 默认可能接近 1.3em。你可以调整到 1.1em, 1.0em 等
+  font-size: 1em; // 调整你的名字字号
 }
 
-// 针对导航链接 (Research, Teaching)
-.nav__items a {
-  font-size: 0.9em; // 默认可能接近 1em。你可以调整到 0.85em, 0.95em 等
+// 针对导航链接 (Research, Teaching) - 使用更准确的 .greedy-nav a
+.greedy-nav a {
+  font-size: 0.6em; // 调整导航链接字号
+}
+
+// 强制隐藏汉堡菜单，避免链接被吞
+.greedy-nav__toggle {
+  display: none !important;
 }
 
 // 2. 缩小论文内容
