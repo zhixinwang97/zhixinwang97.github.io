@@ -5,7 +5,7 @@ title: Teaching
 author_profile: true
 ---
 
-## Teaching Assistant, Shanghai University of Finance and Economics
+#### Teaching Assistant, Shanghai University of Finance and Economics
 
 Advanced Econometrics I (Ph.D. Level), Fall 2025 <br>
 Advanced Econometrics II (Ph.D. Level), Spring 2022 <br>
